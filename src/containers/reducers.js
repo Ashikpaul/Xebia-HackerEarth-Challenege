@@ -2,7 +2,7 @@
 const initialState = {blogs:JSON.parse(localStorage.getItem("blogs"))} || {};
 
 if(initialState === {}){
-  localStorage.setItem("blogs",JSON.stringify([{title:'Ashik',body:"Ashik Paul"},{title:'Agnus',body:"Agnus Paul"}]));
+  localStorage.setItem("blogs",JSON.stringify([{title:'Ashik',body:"Ashik Paul"},{title:'HackerEarth',body:"Xebia Frontend Developer Challenge"}]));
 }
 
 const searchBlogs = (state, title) =>{
