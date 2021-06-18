@@ -1,0 +1,68 @@
+body{
+  background-color: antiquewhite;
+  padding: 1%;
+}
+
+.App {
+  font-family: monospace;
+}
+
+.blogCard{
+  background-color: aquamarine;
+  padding: 1%;
+  margin: 1%;
+  border: 2px solid green;
+  height: auto;
+}
+
+.blogCard h2{
+  text-decoration: underline;
+}
+
+.blogCard p{
+  font-size: 1.2rem;
+}
+
+#searchBlogs{
+  padding: 10px;
+  width:50%;
+  margin: 1%;
+  font-size: 1.05rem;
+}
+
+nav{
+  background-color: lightcoral;
+  display: flex;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 1.05rem;
+  text-decoration: underline;
+}
+
+.newBlog form{
+  background-color: aliceblue;
+  padding: 2%;
+}
+
+.newBlog label{
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+.newBlog input,textarea{
+  font-size: 1.3rem;
+  width: 95%;
+  display: flex;
+  padding: 8px;
+}
+
+.newBlog button{
+  padding: 5px;
+  font-size: 1.05rem;
+  background-color: aquamarine
+}
